@@ -1,0 +1,5 @@
+<form [formGroup]="form">
+  <label>USD value: </label>
+  <input formControlName="currency" type="text" usd-only>
+  <button type="button" (click)='submit()'>save</button>
+</form>
